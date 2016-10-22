@@ -18,6 +18,11 @@ module.exports = {
       }]
   },
   plugins: [
-        new ExtractTextPlugin("../css/[name].css",{allChunks:false})
+        new ExtractTextPlugin("../css/[name].css",{allChunks:false}),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: true
+            }
+        })//压缩js功能
     ]
 }
