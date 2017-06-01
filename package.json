@@ -18,7 +18,9 @@
   "dependencies": {
     "babel-loader": "7.0.0",
     "babel-preset-es2015": "6.24.1",
+    "happypack": "4.0.0-beta.1",
     "lodash": "4.17.4",
+    "os": "0.1.1",
     "path": "0.12.7",
     "react": "15.5.4",
     "react-dom": "15.5.4",
