@@ -27,3 +27,5 @@ module.exports = {
       new CommonsChunkPlugin("commons.js", ["ap1", "ap2", "admin-commons.js"])
     ]
 }
+
+//用法：https://segmentfault.com/a/1190000006808865
